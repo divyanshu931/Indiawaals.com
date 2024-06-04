@@ -1,0 +1,64 @@
+.radio-image-item .field-radio-image{
+    display: none!important;
+}
+.radio-image-item{
+	position:relative; 
+}
+.radio-image-item label{
+    cursor: pointer;
+}
+.radio-image-item:not(:first-child){
+    margin-top: 15px;
+}
+
+.radio-image-item label img{
+	width:100%;
+	border:1px solid #eaeaea;
+}
+.radio-image-item.selected img{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(8, 10, 47, 0.5);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(8, 10, 47, 0.5);
+    box-shadow: 0px 0px 5px 2px rgba(8, 10, 47, 0.5);
+}
+.radio-image-item.selected:before{
+	content:'selected';
+	position:absolute;
+	right:0px;
+	top:0px;
+	background:#c9f31d;
+	font-size:12px;
+	padding:6px;
+	color:#121212;
+}
+
+
+.woocommerce-loop-product__title{
+	color:red!important;
+}
+
+
+
+.wps_control  input[type=radio] {
+       display: none!important;
+}
+
+
+.wpsd.dashicons{
+    width: 94px;
+
+}
+
+.wpsd.dashicons-nametag:before {
+    content: "WpSDefault*"!important;
+    font-size: 13px;
+    padding-left: -26px;
+    font-weight: 600;
+    border: 1px solid #e8e8e8;
+    padding: 4px 10px;
+    width: 100px;
+    background: #fbfbfb;
+    border-radius: 4px;
+    padding-bottom: 9px;
+	color: #b4b4b4;
+}
+
